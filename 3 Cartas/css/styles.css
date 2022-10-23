@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+.card-container{
+    width: 922px;
+    height: 450px;
+    border-radius: 10PX;
+    margin: 0 auto;
+}
+
+
+.center-screen {
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card-box{
+    float: left;
+    word-wrap: break-word;
+    width: 255px;
+    height:100%;
+    padding-left: 50px;
+    padding-top: 50px;
+    background-color: brown;
+}
+
+.card-box:nth-child(1){
+    background-color: #e28525;
+    border-radius: 10px 0 0 10px
+}
+.card-box:nth-child(2){
+    background-color: #016972;
+}
+.card-box:nth-child(3){
+    background-color: #00403f;
+    border-radius: 0px 10px 10px 0px
+}
+.card-box p{
+    text-align: left;
+    color: white;
+    padding-right: 40px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+    margin-bottom: 80px;
+}
+
+.card-box h2{
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+.button-left{
+    border: 2px solid white;
+    background-color: white;
+    color: #e28525;
+    font-family: "Lexend Deca", sans-serif;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 145px;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.button-center{
+    border: 2px solid white;
+    background-color: white;
+    font-family: "Lexend Deca", sans-serif;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 145px;
+    padding: 12px;
+    font-size: 15px;
+    color: #016972;
+}
+
+.button-right{
+    border: 2px solid white;
+    background-color: white;
+    font-family: "Lexend Deca", sans-serif;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 145px;
+    padding: 12px;
+    font-size: 15px;
+    color: #00403f;
+}
+
+.button-left:hover{
+    background-color: transparent;
+    color: white;
+}
+
+.button-center:hover{
+    background-color: transparent;
+    color: white;
+}
+
+.button-right:hover{
+    background-color: transparent;
+    color: white;
+}
